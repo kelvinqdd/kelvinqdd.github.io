@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #e6ffff;
+  }
+.box {
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  padding: 0;
+  width: 200px;
+  height: 100px;
+  }
+.font-box {
+  font-family: 'Courier New', monospace;
+  }
+</style>
+</head>
+<body>
+
+<div onmouseenter="ome(this)" onmouseleave="oml(this,'#c8f4f4')" id="presonal" class="box" style="background-color: #c8f4f4;">
+  <p style="font-size:30px;"> Profile</p>
+</div>
+<div onmouseenter="ome(this)" onmouseleave="oml(this,'#c8f4f4')" id="tech" class="box" style="background-color: #d1ffff;">
+  <p style="font-size:30px;"> Tech Sharing</p>
+</div>
+<br>
+<div class="font-box" id="pp">
+
+<br>
+<dir style="background-color: #ff0000;">
+<br>
+<h1>My Presonal Profile</h1>
+<br>
+</dir>
+
+<div style="background-color: #ffffe0;">
+  <br>
+  <h2>&emsp;-Email Address</h2>
+	<h3>&emsp;&emsp;&emsp;&emsp;&emsp;-kelvinq1991@outlook.com (Almost Never Use)</h3>
+	<h3>&emsp;&emsp;&emsp;&emsp;&emsp;-kelvinqdd@gmail.com (Usually Use)</h3>
+  <br>
+</div>
+
+<div style="background-color: #ffd1ff;">
+  <br>
+  <h2>&emsp;-Roblox Account</h2>
+    <img src="https://raw.githubusercontent.com/kelvinqdd/kelvinqdd.github.io/main/roblox.png">
+</div>
+
+<div style="background-color: #ffffe0;">
+  <br>
+  <h2>&emsp;-YouTube Channel</h2>
+	<h3>&emsp;&emsp;&emsp;&emsp;&emsp;kelvin_QDD (kelvinqdd@gmail.com)</h3>
+  <br>
+</div>
+
+<script>
+document.getElementById("presonal").onmousedown = function () {
+  
+  return true
+};
+document.getElementById("tech").onmousedown = function () {
+  
+  return true
+};
+function ome(x) {
+  x.style.backgroundColor = "#00cccc"
+  return true
+}
+function oml(x,c) {
+  x.style.backgroundColor = c
+  return true
+}
+</script>
+</body>
+
+<div class="font-box" id="tt">
+</div>
+
+</html>
+
+
+
+
+
